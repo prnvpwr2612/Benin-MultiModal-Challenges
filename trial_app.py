@@ -1,11 +1,9 @@
 import streamlit as st 
-from dotenv import load_dotenv
 import os 
 import openai
 from diffusers import StableDiffusionPipeline
 import torch
 
-load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 #function to generate AI based images using OpenAI Dall-E
