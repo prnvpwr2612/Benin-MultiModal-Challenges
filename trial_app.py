@@ -3,17 +3,12 @@ import streamlit as st
 from PIL import Image
 import requests
 from io import BytesIO
+from googletrans import Translator
 
-# Translation and model imports (you'll need to add these)
-# import translation_model
-# import speech_recognition_model
-# import text_to_image_model
-
-# Function to translate text
 def translate_text(text, source_lang, target_lang):
-    # Use the translation model to translate the text
-    translated_text = translation_model.translate(text, source_lang, target_lang)
-    return translated_text
+    translator = Translator()
+    translated_text = translator.translate(text, src=source_lang, dest=target_lang)
+    return translated_text.text
 
 # Function to transcribe and translate audio
 def transcribe_and_translate_audio(audio_file, source_lang, target_lang):
@@ -34,7 +29,7 @@ def main():
     st.title("Text and Audio to Image Generation")
 
     # Sidebar for language selection
-    source_lang = st.sidebar.selectbox("Select Source Language", ["English", "Fon", "Yoruba"])
+    source_lang = st.sidebar.selectbox("Select Source Language", ["English", "Fon", "Yoruba", "Dendi"])
     target_lang = st.sidebar.selectbox("Select Target Language", ["English", "French"])
 
     # Text input
