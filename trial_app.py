@@ -34,7 +34,7 @@ def main():
     st.set_page_config(page_title="Text and Audio to Image Generation", page_icon=":camera:", layout="wide")
 
     # Load background image from URL
-    background_image_url = "https://example.com/background.jpg"  # Replace with your desired image URL
+    background_image_url = "https://us.123rf.com/450wm/chajudesign21/chajudesign212212/chajudesign21221200061/195327906-benin-flag-waving-in-the-wind-with-3d-style-background.jpg?ver=6"  # Replace with your desired image URL
     response = requests.get(background_image_url)
     background_image = Image.open(BytesIO(response.content))
 
