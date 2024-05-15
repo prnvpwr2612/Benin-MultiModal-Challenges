@@ -1,58 +1,61 @@
-import base64
-import openai
 import streamlit as st
-import urllib.request
 from PIL import Image
+import requests
+from io import BytesIO
 
+# Translation and model imports (you'll need to add these)
+# import translation_model
+# import speech_recognition_model
+# import text_to_image_model
 
-# Function to add app background image
-def add_bg_from_local(image_file):
-    with open(image_file, "rb") as image_file:
-        encoded_string = base64.b64encode(image_file.read())
-    st.markdown(f"""<style>.stApp {{background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
-    background-size: cover}}</style>""", unsafe_allow_html=True)
+# Function to translate text
+def translate_text(text, source_lang, target_lang):
+    # Use the translation model to translate the text
+    translated_text = translation_model.translate(text, source_lang, target_lang)
+    return translated_text
 
+# Function to transcribe and translate audio
+def transcribe_and_translate_audio(audio_file, source_lang, target_lang):
+    # Use the speech recognition model to transcribe the audio
+    transcribed_text = speech_recognition_model.transcribe(audio_file, source_lang)
+    
+    # Translate the transcribed text
+    translated_text = translate_text(transcribed_text, source_lang, target_lang)
+    return translated_text
 
-# Function to generate images with rate limiting
-def generate_image(prompt):
-    img_response = openai.images.generate(
-        model="dall-e-2",
-        prompt=prompt,
-        size="256x256",
-        quality="hd",
-        n=1,
-    )
-    image_url = img_response.data[0].url
-    urllib.request.urlretrieve(image_url, 'img.png')
-    img = Image.open("img.png")
+# Function to generate image from text
+def generate_image_from_text(text):
+    # Use the text-to-image model to generate the image
+    image = text_to_image_model.generate(text)
+    return image
 
-    return img
+def main():
+    st.title("Text and Audio to Image Generation")
 
+    # Sidebar for language selection
+    source_lang = st.sidebar.selectbox("Select Source Language", ["English", "Fon", "Yoruba"])
+    target_lang = st.sidebar.selectbox("Select Target Language", ["English", "French"])
 
-# Streamlit app
-st.markdown("""
-    <svg width="600" height="100">
-        <text x="50%" y="50%" font-family="monospace" font-size="42px" fill="Green" text-anchor="middle" stroke="white"
-         stroke-width="0.5" stroke-linejoin="round">🎨ImagiCraft🎨
-        </text>
-    </svg>
-""", unsafe_allow_html=True)
+    # Text input
+    text_input = st.text_area("Enter text in the source language")
 
-add_bg_from_local('background.jpg')
+    # Audio input
+    audio_file = st.file_uploader("Upload an audio file in the source language", type=["wav", "mp3"])
 
-# Entering OpenAI API key
-openai.api_key = st.sidebar.text_input("First, enter your OpenAI API key : ", type="password")
+    # Generate image from text
+    if st.button("Generate Image from Text"):
+        if text_input:
+            translated_text = translate_text(text_input, source_lang, target_lang)
+            image = generate_image_from_text(translated_text)
+            st.image(image, caption="Generated Image", use_column_width=True)
 
-img_description = st.text_input('Image Description : ')
+    # Generate image from audio
+    if st.button("Generate Image from Audio"):
+        if audio_file is not None:
+            audio_bytes = audio_file.read()
+            translated_text = transcribe_and_translate_audio(audio_bytes, source_lang, target_lang)
+            image = generate_image_from_text(translated_text)
+            st.image(image, caption="Generated Image", use_column_width=True)
 
-if st.button('Generate Image'):
-    if openai.api_key:
-        if img_description:
-            try:
-                with st.spinner('Generating Image...'):
-                    response = generate_image(img_description)
-                    st.image(response, caption=img_description, use_column_width=True)
-            except Exception as e:
-                st.error("Please enter valid OpenAI API key.")
-    else:
-        st.warning("Please input your OpenAI API key.")
+if __name__ == "__main__":
+    main()
