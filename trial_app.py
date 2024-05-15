@@ -4,8 +4,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 from googletrans import Translator
-from transformers import CLIPProcessor, CLIPModel
-import torch
+
 
 def translate_text(text, source_lang, target_lang):
     translator = Translator()
@@ -21,12 +20,10 @@ def transcribe_and_translate_audio(audio_file, source_lang, target_lang):
     translated_text = translate_text(transcribed_text, source_lang, target_lang)
     return translated_text
 
-model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
-processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+# Function to generate image from text
 def generate_image_from_text(text):
-    inputs = processor(text, return_tensors="pt", padding=True, truncation=True)
-    outputs = model.generate(inputs.input_ids)
-    image = outputs[0].numpy()
+    # Use the text-to-image model to generate the image
+    image = text_to_image_model.generate(text)
     return image
 
 def main():
