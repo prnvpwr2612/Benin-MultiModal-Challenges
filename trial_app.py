@@ -1,10 +1,8 @@
-!pip install googletrans
 
 import streamlit as st
 from PIL import Image
 import requests
 from io import BytesIO
-from googletrans import Translator
 
 # Translation and model imports (you'll need to add these)
 # import translation_model
