@@ -33,8 +33,12 @@ def main():
     # Set page configuration
     st.set_page_config(page_title="Text and Audio to Image Generation", page_icon=":camera:", layout="wide")
 
+    # Load background image from URL
+    background_image_url = "https://example.com/background.jpg"  # Replace with your desired image URL
+    response = requests.get(background_image_url)
+    background_image = Image.open(BytesIO(response.content))
+
     # Add background image
-    background_image = Image.open("background.jpg")  # Replace with your desired background image
     st.markdown(
         f"""
         <style>
