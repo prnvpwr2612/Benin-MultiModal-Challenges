@@ -1,1 +1,1 @@
-# Benin-MultiModal-Challenges
+# TOURISTY - InfoMatrix
