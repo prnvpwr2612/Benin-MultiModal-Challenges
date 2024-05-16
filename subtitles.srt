@@ -1,0 +1,572 @@
+1
+00:00:00,120 --> 00:00:03,638
+Essentially, loan the government 100,000 pounds each and hundred
+
+2
+00:00:03,726 --> 00:00:07,102
+billion pounds collectively. And in return, the government
+
+3
+00:00:07,158 --> 00:00:10,646
+would guarantee that after ten years or 20 years, it will return this
+
+4
+00:00:10,670 --> 00:00:14,382
+money with a 3% interest. Now, what have we learned from the previous episode?
+
+5
+00:00:14,478 --> 00:00:17,814
+The longer you keep this money in the garment, the more interest they'll pay you.
+
+6
+00:00:17,854 --> 00:00:21,270
+For example, a two year bond could pay you a 3% interest, and a ten
+
+7
+00:00:21,302 --> 00:00:24,366
+year bond could pay you a 7% interest. So just like
+
+8
+00:00:24,390 --> 00:00:27,956
+in the previous episode, the demand supply forces will come in. But this
+
+9
+00:00:27,980 --> 00:00:30,932
+time the primary focus is not the yield curve,
+
+10
+00:00:31,028 --> 00:00:34,812
+but the cost of borrowing of the government. So let's try
+
+11
+00:00:34,828 --> 00:00:38,076
+to understand this using a simple example. So let's say there is a ten year
+
+12
+00:00:38,100 --> 00:00:41,724
+bond that is being sold at 100 pounds per unit at an interest rate of
+
+13
+00:00:41,764 --> 00:00:45,036
+3%. So if you invest 100 pounds in a ten year bond,
+
+14
+00:00:45,140 --> 00:00:48,596
+you would get three pounds as interest. Now, listen to this very,
+
+15
+00:00:48,620 --> 00:00:51,860
+very carefully. Now, if there is nobody willing to
+
+16
+00:00:51,892 --> 00:00:54,954
+buy these ten year units from the government at hundred pounds,
+
+17
+00:00:55,084 --> 00:00:58,718
+what will the government do? They would decrease the price of the unit to
+
+18
+00:00:58,766 --> 00:01:02,334
+90 pounds. So if Shubham bought this unit at 90 pounds,
+
+19
+00:01:02,414 --> 00:01:06,118
+he would still get three pounds in return. Which means back then,
+
+20
+00:01:06,206 --> 00:01:10,238
+the garment was borrowing 100 pounds at 3% interest, but now
+
+21
+00:01:10,366 --> 00:01:14,526
+they are borrowing just 90 pounds at 3.33% interest.
+
+22
+00:01:14,710 --> 00:01:17,646
+And in spite of this cost drop, if still people don't want to buy these
+
+23
+00:01:17,670 --> 00:01:21,154
+units or there is an oversupply of these bonds in the market,
+
+24
+00:01:21,294 --> 00:01:25,426
+the unit price will drop further to 60 pounds, which means now
+
+25
+00:01:25,570 --> 00:01:29,426
+the government is borrowing 60 pounds at a 5% interest.
+
+26
+00:01:29,570 --> 00:01:33,026
+So you see, because of the demand supply mismatch, the government is
+
+27
+00:01:33,050 --> 00:01:36,330
+getting less money from the people at a very, very high
+
+28
+00:01:36,402 --> 00:01:39,794
+interest rate. And this is a very, very dangerous position for
+
+29
+00:01:39,834 --> 00:01:43,898
+any government where the interest of the bonds are climbing so high. This is
+
+30
+00:01:43,906 --> 00:01:47,026
+the reason why the ten year bond rates in the UK have gone up by
+
+31
+00:01:47,050 --> 00:01:51,448
+almost 300%, going from just above 1% to 4.11%
+
+32
+00:01:51,586 --> 00:01:54,876
+in just nine months. Now, most people would say, yeah,
+
+33
+00:01:54,900 --> 00:01:58,980
+bro, so what? The government bonds are now giving out 4% interest, which is absolutely
+
+34
+00:01:59,012 --> 00:02:02,916
+crazy. So everyone will flock to buy these bonds and the interest rates
+
+35
+00:02:02,940 --> 00:02:06,876
+will go down, right? So what exactly is the problem? Well,
+
+36
+00:02:06,940 --> 00:02:10,284
+guess what? Here's where the UK has another problem in the form
+
+37
+00:02:10,324 --> 00:02:13,932
+of currency depreciation, which makes the bond market of UK
+
+38
+00:02:14,028 --> 00:02:17,460
+almost useless for big traders. And this is where we have the
+
+39
+00:02:17,492 --> 00:02:20,888
+currency carry trade that we spoke about in the previous episode. But in
+
+40
+00:02:20,896 --> 00:02:24,680
+the previous episode, we spoke about the impact of the feds hiking
+
+41
+00:02:24,712 --> 00:02:27,944
+the interest rate on the currency carry trade. But this time,
+
+42
+00:02:28,064 --> 00:02:31,736
+let's have a look at what will currency depreciation do to the currency carry
+
+43
+00:02:31,800 --> 00:02:35,328
+trade. So, let's say William is a billionaire who wants to make money using currency
+
+44
+00:02:35,376 --> 00:02:38,264
+carry trade in the UK. So what would he do? Firstly,
+
+45
+00:02:38,344 --> 00:02:41,720
+he would check the lending rates in the US and check the bond market rates
+
+46
+00:02:41,752 --> 00:02:45,328
+in the UK. So if the US bank is lending at 2% and
+
+47
+00:02:45,336 --> 00:02:48,886
+the UK bonds are yielding 4%, William will decide to enter the
+
+48
+00:02:48,910 --> 00:02:52,494
+market. So, firstly, he would borrow $1 million from the US bank.
+
+49
+00:02:52,614 --> 00:02:55,454
+Secondly, he would convert this $1 million into pounds.
+
+50
+00:02:55,574 --> 00:03:00,102
+Now, had he made this conversion in January, this would amount to 714,000
+
+51
+00:03:00,158 --> 00:03:04,390
+pounds. Considering 1.4 to be exchange rate, then he would invest
+
+52
+00:03:04,462 --> 00:03:07,862
+these 714,000 pounds in the UK bonds and leave
+
+53
+00:03:07,878 --> 00:03:11,302
+it there for a year. Then, after one year, had it been a normal market,
+
+54
+00:03:11,438 --> 00:03:14,980
+he would get his 714,000 pounds with a full interest,
+
+55
+00:03:15,052 --> 00:03:18,332
+which amounts to 742,560 pounds.
+
+56
+00:03:18,468 --> 00:03:22,444
+Now, he would convert this amount to dollars, which would amount to $1.04
+
+57
+00:03:22,484 --> 00:03:26,244
+million. So if you look at the interest rate of the feds, he just
+
+58
+00:03:26,284 --> 00:03:30,380
+has to pay 2% interest to the american bank, as in $1.02 million.
+
+59
+00:03:30,492 --> 00:03:34,900
+So out of the $1.04 million that he has, he just has to pay 1.02
+
+60
+00:03:34,932 --> 00:03:38,388
+million and the rest, 0.02 million, will be his profit.
+
+61
+00:03:38,516 --> 00:03:41,806
+So you see, by simply rotating this money, William was able to
+
+62
+00:03:41,830 --> 00:03:45,142
+make two in profit. But like I said,
+
+63
+00:03:45,238 --> 00:03:48,606
+this is the ideal condition. But today, if you look at the market in
+
+64
+00:03:48,630 --> 00:03:52,750
+UK, the value of pound has depreciated by almost 21.4%
+
+65
+00:03:52,822 --> 00:03:56,454
+since January. So now the exchange rate is just 1.1.
+
+66
+00:03:56,614 --> 00:04:01,174
+Now, let's see what happens after one year when William gets 742,560
+
+67
+00:04:01,214 --> 00:04:05,142
+pounds. When he converts that to dollars, at an exchange rate of 1.1,
+
+68
+00:04:05,278 --> 00:04:08,680
+he would get only $816,000. But since
+
+69
+00:04:08,712 --> 00:04:12,736
+the american bank is leaving a 2% interest, he still has to pay 1.02
+
+70
+00:04:12,760 --> 00:04:16,336
+million to the american bank. Which means what? Even though the bonds are
+
+71
+00:04:16,360 --> 00:04:19,912
+giving out a 4% interest, because the currency has depreciated
+
+72
+00:04:19,928 --> 00:04:23,496
+by 21.4%, this currency carry trade has become a
+
+73
+00:04:23,520 --> 00:04:26,712
+disaster for William. This is what is exactly happening
+
+74
+00:04:26,728 --> 00:04:29,992
+in the UK, whereby even though the bonds are yielding a 4%
+
+75
+00:04:30,048 --> 00:04:33,544
+interest, the currency has depreciated to such an extent that
+
+76
+00:04:33,584 --> 00:04:36,808
+now it has become a disaster for the investors. As a result,
+
+77
+00:04:36,936 --> 00:04:40,856
+they are quitting the UK market, and this is further decreasing the
+
+78
+00:04:40,880 --> 00:04:44,464
+demand for pounds. As a result, the currency is depreciating further.
+
+79
+00:04:44,624 --> 00:04:48,384
+So now that the pound is depreciating, what will happen? The energy prices will
+
+80
+00:04:48,424 --> 00:04:51,592
+not just spike because of the gas shortage. They will not just spike
+
+81
+00:04:51,648 --> 00:04:55,168
+because of peak consumption levels during winter, but also because of
+
+82
+00:04:55,216 --> 00:04:58,984
+currency depreciation. And this will take the cost of energy in the UK to
+
+83
+00:04:59,024 --> 00:05:02,464
+dangerous levels. And when these energy bills spike up, what will happen?
+
+84
+00:05:02,584 --> 00:05:06,360
+The government of UK will have to borrow more money in order to compensate for
+
+85
+00:05:06,392 --> 00:05:09,600
+these losses. Which means more bonds will float in the market,
+
+86
+00:05:09,712 --> 00:05:13,512
+which means the demand for the bonds will go down, and then the
+
+87
+00:05:13,568 --> 00:05:17,472
+interest of these bonds will go up, which means the cost of borrowing for
+
+88
+00:05:17,488 --> 00:05:21,112
+the garment will increase further, eventually depreciating the currency
+
+89
+00:05:21,168 --> 00:05:24,432
+further, and that will lead to a vicious cycle. On top
+
+90
+00:05:24,448 --> 00:05:28,086
+of that, they've also announced tax cuts which are expected to decrease the
+
+91
+00:05:28,110 --> 00:05:31,622
+government revenues by $45 billion till 2026.
+
+92
+00:05:31,758 --> 00:05:35,798
+So in short, the government of UK is cutting down its own revenues during
+
+93
+00:05:35,846 --> 00:05:39,102
+a cash crunch situation. This is the reason why everybody is
+
+94
+00:05:39,118 --> 00:05:42,166
+scared that this scenario will spiral the entire economy
+
+95
+00:05:42,230 --> 00:05:45,862
+of UK into a freaking disaster. This is the reason why
+
+96
+00:05:45,958 --> 00:05:49,470
+the bank of England is now about to buy 65 billion pounds worth of
+
+97
+00:05:49,502 --> 00:05:52,920
+bonds, so that they could prevent the interest rates from falling.
+
+98
+00:05:53,062 --> 00:05:56,420
+And in the south, with housing loan spikes due to inflation and bank defaults,
+
+99
+00:05:56,532 --> 00:06:00,532
+it will cause a banking and housing crisis along with energy and
+
+100
+00:06:00,588 --> 00:06:04,164
+currency crisis. This is the story of the economic crisis
+
+101
+00:06:04,204 --> 00:06:07,796
+of the UK. So now UK has two options. One is to withdraw the sanctions,
+
+102
+00:06:07,860 --> 00:06:10,996
+get the gas from Russia and chill. Or secondly, deal with the
+
+103
+00:06:11,020 --> 00:06:14,060
+complications of its economy by being dependent on the US and hope
+
+104
+00:06:14,092 --> 00:06:17,412
+that they dont mess up. And this brings me to the most important part
+
+105
+00:06:17,428 --> 00:06:20,948
+of the episode and that are the study materials to help you understand this economic
+
+106
+00:06:21,036 --> 00:06:24,156
+crisis in the UK better. But before we move on,
+
+107
+00:06:24,180 --> 00:06:27,908
+I want to quickly thank our partners of this episode. And that is coding invaders,
+
+108
+00:06:28,036 --> 00:06:31,556
+people. The international markets have been free falling in the last few
+
+109
+00:06:31,620 --> 00:06:35,252
+weeks and in conditions like these, there's a high possibility of a job crisis.
+
+110
+00:06:35,388 --> 00:06:38,820
+But that's where coding invaders come in. They help you switch from non
+
+111
+00:06:38,852 --> 00:06:41,900
+IT profession to it for high paying jobs within six
+
+112
+00:06:41,932 --> 00:06:46,404
+to eight months. As a data analyst, their current placement stats stand at 93%.
+
+113
+00:06:46,484 --> 00:06:49,542
+And the best part is that before you enroll for the course, they provide you
+
+114
+00:06:49,558 --> 00:06:53,254
+with a guaranteed job agreement with a money back guarantee. So basically,
+
+115
+00:06:53,374 --> 00:06:56,958
+if you do not get placed, you will get a hundred percent refund.
+
+116
+00:06:57,086 --> 00:07:00,742
+Their courses have real world business, case studies, job oriented projects
+
+117
+00:07:00,758 --> 00:07:03,582
+and assignments designed by industry experts from Amazon,
+
+118
+00:07:03,678 --> 00:07:07,526
+Phillips, Deloitte and others and even a civil engineer like me without
+
+119
+00:07:07,590 --> 00:07:10,902
+an IT background will be able to learn data science and be eligible for
+
+120
+00:07:10,918 --> 00:07:14,382
+a high paying IT jobs such as a data analyst. So you
+
+121
+00:07:14,398 --> 00:07:17,828
+don't need a coding background to get into such jobs. They have helped
+
+122
+00:07:17,876 --> 00:07:21,188
+20,000 candidates secure 1025 LPA packages in
+
+123
+00:07:21,196 --> 00:07:24,780
+the past 6.5 months itself with the help of their 300 hiring
+
+124
+00:07:24,812 --> 00:07:27,916
+partners. So this Diwali you can choose to invest in
+
+125
+00:07:27,940 --> 00:07:31,156
+yourself rather than the markets. So if this sounds
+
+126
+00:07:31,180 --> 00:07:34,332
+useful to you, click the link in the description and use the code TS 30
+
+127
+00:07:34,388 --> 00:07:38,004
+to get 30% fee discount in the job guarantee batch.
+
+128
+00:07:38,124 --> 00:07:41,036
+Moving on to the study materials, the first thing I am attaching is this 40
+
+129
+00:07:41,100 --> 00:07:45,160
+page report itself which will teach you about the mini budget. Read through it
+
+130
+00:07:45,232 --> 00:07:48,352
+and you will understand the other nuances of this crisis.
+
+131
+00:07:48,528 --> 00:07:51,960
+Secondly, I am attaching the nicer paper that will teach you about the economic
+
+132
+00:07:52,072 --> 00:07:55,296
+consequence of the energy policy. And I am also attaching a twitter thread
+
+133
+00:07:55,320 --> 00:07:58,560
+from Anshul who is the co founder of Wind wealth and he has explained the
+
+134
+00:07:58,592 --> 00:08:02,400
+UK bond crisis even more in depth with simple examples. And lastly,
+
+135
+00:08:02,472 --> 00:08:06,080
+I am attaching a think school video on the russian gas strategy to choke Europe.
+
+136
+00:08:06,192 --> 00:08:08,928
+Have a look at that and you will understand. Where did all this episode start
+
+137
+00:08:09,016 --> 00:08:12,004
+and what is the leverage that Russia has over Europe?
+
+138
+00:08:12,164 --> 00:08:15,332
+That's all from my side for today guys. If you learned something elaborate, please make
+
+139
+00:08:15,348 --> 00:08:18,100
+sure to hit the like button in order to support our work so that YouTube
+
+140
+00:08:18,132 --> 00:08:21,572
+algorithm knows that this video has given value to you. And for more
+
+141
+00:08:21,588 --> 00:08:25,388
+such insightful business and political case studies, please subscribe to our channel. Thank you
+
+142
+00:08:25,396 --> 00:08:28,388
+so much for watching. I will see you in the next one. Bye bye.
+
+143
+00:08:28,476 --> 00:08:31,684
+And don't forget to check out coding invaders from the link in the description.
+
